@@ -1,0 +1,6 @@
+- Create a folder and put the datafile `sg_final.csv` into. Change the `drive_path` to the relative path of the folder. All outputs will be put into that folder.
+- If you run the `simulation_sg1.ipynb`, it will perform the calibration and output all results of the first outbreak of Singapore. The running time highly depends on the hardware.
+- If you run the `simulation_sg2.ipynb`, it will perform the calibration and output all results of the second outbreak of Singapore. The running time highly depends on the hardware.
+- A cloud environment (for example, Google Colab) is highly recommended for running the project. Scientific computing libraries such as numpy, pandas, matplotlib, plotly, sciris must be pre-installed.
+- Running `simulation_sg1.ipynb` or `simulation_sg2.ipynb` will install the following python libraries: covasim, optuna, kaleido, plotly, mysql-python, mysqlclient. 
+- Running `simulation_sg1.ipynb` or `simulation_sg2.ipynb` will install MySQL on the server. If you have installed MySQL with password before, please add password command to all MySQL command and enter the password when needed. Please also make sure that all data in your MySQL have been backup.
