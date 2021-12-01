@@ -1,0 +1,5 @@
+- Create a folder and put all datafiles into. Change the `drive_path` to the relative path of the folder. All outputs will be put into that folder.
+- If you run the `data_sg.ipynb`, it will load data and output `sg_final.csv` for future research.
+- A cloud environment (for example, Google Colab) is highly recommended for running the project. Scientific computing libraries such as numpy, pandas, matplotlib, must be pre-installed.
+- The web links of datafiles are provided in `data_sg.ipynb`. However, if these links are not available, you can also find datafiles in `/singapore`.
+- `/singapore` also contains outputs of agent-based model, i.e., `simulation_sg1.ipynb` and `simulation_sg2.ipynb`.
