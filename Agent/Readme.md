@@ -1,4 +1,6 @@
 - Create a folder and put the datafile `sg_final.csv` into. Change the `drive_path` to the relative path of the folder. All outputs will be put into that folder.
+    - If you are willing to run calibration, please uncomment the line `calib.create_calib()`
+    - If you are not willing to run calibration but only want to see the final results, please also put `sg_calib1.sql` and `sg_calib1.sq2` into the folder
 - If you run the `simulation_sg1.ipynb`, it will perform the calibration and output all results of the first outbreak of Singapore. The running time highly depends on the hardware.
 - If you run the `simulation_sg2.ipynb`, it will perform the calibration and output all results of the second outbreak of Singapore. The running time highly depends on the hardware.
 - A cloud environment (for example, Google Colab) is highly recommended for running the project. Scientific computing libraries such as numpy, pandas, matplotlib, plotly, sciris must be pre-installed.
