@@ -11,5 +11,5 @@ Modeling the impact of vaccination, mask policies and mobility on the COVID-19 p
 
 # Website
 
-Visit [blog](https://zs-liu.github.io/2021/12/01/CSE8803/) for a quick overview of the project.
+Visit [blog](https://zsliu98.github.io/2021/12/01/CSE8803/) for a quick overview of the project.
 
